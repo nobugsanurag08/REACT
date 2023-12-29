@@ -1,0 +1,50 @@
+import "./App.css";
+
+function App() {
+  return (
+    <div>
+      <button type="button" className="btn btn-primary">
+        Primary
+      </button>
+      <button type="button" className="btn btn-secondary">
+        Secondary
+      </button>
+      <button type="button" className="btn btn-success">
+        Success
+      </button>
+      <button type="button" className="btn btn-danger">
+        Danger
+      </button>
+      <button type="button" className="btn btn-warning">
+        Warning
+      </button>
+      <button type="button" className="btn btn-info">
+        Info
+      </button>
+      <button type="button" className="btn btn-light">
+        Light
+      </button>
+      <button type="button" className="btn btn-dark">
+        Dark
+      </button>
+
+      <button type="button" className="btn btn-link">
+        Link
+      </button>
+      {/* <div className="progress">
+        <div
+          className="progress-bar"
+          role="progressbar"
+          style="width: 25%;"
+          aria-valuenow="25"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          25%
+        </div>
+      </div> */}
+    </div>
+  );
+}
+
+export default App;
